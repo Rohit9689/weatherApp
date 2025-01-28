@@ -4,7 +4,7 @@ const searchCityBtn  = document.getElementById("searchCityBtn");
 
 
 
-const ApiKey = "cb32577cac83c077f4f280ffe3f646bd";
+const ApiKey = "place your API key";
 
 async function checkWeather(cityName){
     const ApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${ApiKey}&units=metric`
